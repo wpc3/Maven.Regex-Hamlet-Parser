@@ -15,14 +15,26 @@ public class HamletParserTest {
 
     @Test
     public void testChangeHamletToLeon() {
+       String actual = hamletParser.regexHamlet();
+
+
+       assertTrue(actual.contains("Leon"));
     }
 
     @Test
     public void testChangeHoratioToTariq() {
+        String actual = hamletParser.regexHamlet();
+
+
+        assertTrue(actual.contains("Tariq"));
     }
 
     @Test
     public void testFindHoratio() {
+
+
+
+
     }
 
     @Test
